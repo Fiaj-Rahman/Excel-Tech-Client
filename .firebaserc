@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "exceltech-aa221",
+    "exceltect-aa221": "exceltech-aa221",
+    "dev": "exceltech-aa221"
+  },
+  "targets": {},
+  "etags": {}
+}
