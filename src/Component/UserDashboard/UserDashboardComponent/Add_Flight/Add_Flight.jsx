@@ -85,9 +85,7 @@ const Add_Flight = () => {
         };
 
         try {
-            const response = await axios.post("https://excel-server-site.vercel.app/flight", flightData, {
-                withCredentials: true,
-            });
+            const response = await axios.post("https://excel-server-site.vercel.app/flight", flightData);
             console.log("Flight added:", response.data);
             alert("Flight added successfully!");
         } catch (error) {
